@@ -1,0 +1,184 @@
+/* App styles */
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  width: 300px;
+  height: 500px;
+  border-radius: 7%;
+  border: 2px solid goldenrod;
+}
+
+.card img {
+  display: block;
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.card button {
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  width: 80%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card button:hover {
+  background-color: #d32f2f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+form input[type="text"],
+form input[type="file"] {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+  width: 80%;
+}
+
+form button[type="submit"]:hover {
+  background-color: #388e3c;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.photo{
+    display: inline-block;
+    /* width: 100%; */
+    height: auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 7%;
+    border: 2px solid goldenrod;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.overlay{
+  background-image: none;
+}
+
+.label{
+  font-size: larger;
+  color: #d32f2f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.overlay:hover{
+  background-color: rgb(188, 188, 188);
+}
+
+.overlay button{
+  background-color: none;
+  border: 3px solid #3da8c6;
+  align-self: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 98%;
+  border-radius: 5px;
+  color: #3da8c6;
+  display: inline-block;
+}
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
